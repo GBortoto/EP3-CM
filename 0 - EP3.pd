@@ -17,8 +17,8 @@
 #X obj 428 468 expr 1 - ($f1/1000);
 #X obj 101 101 cnv 15 118 98 empty empty empty 20 12 0 14 -204786 -66577
 0;
-#X obj 145 157 knob 32 32 10 1 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 1722 1;
+#X obj 145 157 knob 32 32 10 1 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 1722 1;
 #X floatatom 134 220 5 0 0 0 - - -, f 5;
 #X text 110 106 Karplus-Strong;
 #X text 138 132 Reverb;
@@ -62,8 +62,8 @@
 #X obj 237 145 inlet~;
 #X obj 51 51 cnv 15 98 98 empty empty empty 20 12 0 14 -261234 -66577
 0;
-#X obj 85 95 knob 32 32 0.01 1.01 1 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 2943 1;
+#X obj 85 95 knob 32 32 0.01 1.01 1 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 2943 1;
 #X obj 55 54 cnv 15 80 20 empty empty Master 20 12 0 14 -261234 -66577
 0;
 #X obj 243 243 dac~;
@@ -105,8 +105,8 @@
 -66577 0;
 #X obj 114 112 vsl 20 200 0.01 1 1 0 empty empty empty 0 -9 0 10 -228856
 -1 -1 0 1;
-#X obj 146 280 knob 32 32 0 1 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
+#X obj 146 280 knob 32 32 0 1 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
 #X obj 182 300 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
 -1;
 #X obj 349 330 *~;
@@ -140,8 +140,8 @@
 #X obj 237 145 inlet~;
 #X obj 51 51 cnv 15 98 98 empty empty empty 20 12 0 14 -261234 -66577
 0;
-#X obj 85 95 knob 32 32 0.01 1.01 1 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
+#X obj 85 95 knob 32 32 0.01 1.01 1 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
 #X obj 55 54 cnv 15 80 20 empty empty Master 20 12 0 14 -261234 -66577
 0;
 #X obj 243 243 dac~;
@@ -173,8 +173,8 @@
 -66577 0;
 #X obj 114 112 vsl 20 200 0.01 1 1 0 empty empty empty 0 -9 0 10 -228856
 -1 -1 18936 1;
-#X obj 146 280 knob 32 32 0 1 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 1550 1;
+#X obj 146 280 knob 32 32 0 1 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 1550 1;
 #X obj 182 300 bng 15 250 50 0 empty empty empty 17 7 0 10 -4034 -1
 -1;
 #X obj 349 330 *~;
@@ -254,7 +254,7 @@
 #X connect 24 0 4 0;
 #X coords 0 -1 1 1 300 150 2 100 100;
 #X restore 1041 23 pd settings;
-#N canvas -8 -8 1366 685 control 0;
+#N canvas 0 50 1366 685 control 0;
 #X obj 465 219 hradio 15 1 0 2 empty empty empty 0 -8 0 10 -262144
 -1 -1 0;
 #X obj 301 215 cnv 15 1 1 empty empty MIDI_Controller 20 12 0 14 -262144
@@ -271,7 +271,7 @@
 #X obj 802 580 outlet;
 #X obj 802 438 spigot;
 #X obj 954 438 spigot;
-#N canvas -8 -8 1366 685 MIvDI_controllerv 0;
+#N canvas 0 50 1366 685 MIvDI_controllerv 0;
 #X floatatom 674 170 0 0 0 0 - - -;
 #X floatatom 638 170 0 0 0 0 - - -;
 #X obj 602 145 notein;
@@ -386,22 +386,22 @@
 -66577 -66577 0 1;
 #X obj 430 56 vsl 11 30 0 127 0 0 empty key82 empty 0 -9 0 10 -66577
 -66577 -66577 0 1;
-#X obj 44 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 84 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 124 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 164 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 204 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 244 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 284 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
-#X obj 324 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 4.59163e+007
-4.59163e+007 4.59163e+007 0 1;
+#X obj 44 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 84 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 124 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 164 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 204 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 244 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 284 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
+#X obj 324 23 knob 20 20 0 127 0 0 empty empty empty 0 -8 0 8 1.50799e+007
+1.50799e+007 1.50799e+007 0 1;
 #X obj 450 56 vsl 15 40 0 127 0 0 empty key84 empty 0 -9 0 10 -262144
 -262144 -262144 0 1;
 #X obj 465 56 vsl 15 40 0 127 0 0 empty key86 empty 0 -9 0 10 -262144
@@ -428,7 +428,7 @@
 -66577 -66577 0 1;
 #X obj 555 56 vsl 15 40 0 127 0 0 empty key96 empty 0 -9 0 10 -262144
 -262144 -262144 0 1;
-#N canvas -8 -8 1366 685 keyboard 0;
+#N canvas 0 50 1366 685 keyboard 0;
 #X obj 70 21 r onSignal;
 #X obj 70 43 t f b;
 #X msg 263 58 36;
@@ -2469,27 +2469,27 @@ $f2 +1 \, 0) \; if($f1 == $f2 \, $f1 \, 0);
 #X obj 1033 230 print;
 #X obj 40 232 print;
 #X obj 233 223 t b f;
-#X obj 925 595 expr if($f1>0 \, $f1 \, 0);
-#X obj 925 617 mtof;
-#X obj 640 383 expr if($f1 > 9 \, $f1 \, 0);
-#X obj 1111 417 seq;
-#X obj 942 464 midiparse;
-#X floatatom 640 403 5 0 0 0 - - -, f 5;
-#X obj 967 402 seq;
-#X msg 999 387 read \$1;
-#X obj 967 339 t b s;
-#X msg 908 387 stop;
-#X obj 812 276 openpanel;
-#X obj 880 251 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 1066 601 expr if($f1>0 \, $f1 \, 0);
+#X obj 1066 623 mtof;
+#X obj 781 389 expr if($f1 > 9 \, $f1 \, 0);
+#X obj 1252 423 seq;
+#X obj 1083 470 midiparse;
+#X floatatom 781 409 5 0 0 0 - - -, f 5;
+#X obj 1108 408 seq;
+#X msg 1140 393 read \$1;
+#X obj 1108 345 t b s;
+#X msg 1049 393 stop;
+#X obj 953 282 openpanel;
+#X obj 1021 257 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X symbolatom 809 312 50 0 0 0 - - -, f 50;
-#X obj 901 251 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X symbolatom 950 318 50 0 0 0 - - -, f 50;
+#X obj 1042 257 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 1058 524 0;
-#X obj 1106 546 print;
-#X obj 923 251 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X msg 1199 530 0;
+#X obj 1247 552 print;
+#X obj 1064 257 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#N canvas 603 239 450 300 exemplo 0;
+#N canvas 697 51 450 300 exemplo 0;
 #X obj 185 48 inlet;
 #X text 64 30 Sinal;
 #X obj 64 49 inlet~;
@@ -2503,18 +2503,18 @@ $f2 +1 \, 0) \; if($f1 == $f2 \, $f1 \, 0);
 #X connect 2 0 7 0;
 #X connect 4 0 5 0;
 #X connect 4 1 6 0;
-#X restore 341 566 pd exemplo;
-#X obj 342 469 osc~;
-#X obj 370 399 hsl 128 30 440 880 1 0 empty empty Frequência_(Hz)
+#X restore 390 538 pd exemplo;
+#X obj 391 441 osc~;
+#X obj 419 371 hsl 128 30 440 880 1 0 empty empty Frequência_(Hz)
 -2 -8 0 10 -262144 -1 -1 0 1;
 #X text 64 30 Sinal;
-#X obj 340 605 dac~;
-#X obj 408 531 pack 0 0;
-#X floatatom 473 505 5 0 0 0 - - -, f 5;
-#X msg 402 504 127;
-#X text 391 504 a;
-#X text 434 504 freq.;
-#X obj 402 470 t b f;
+#X obj 389 577 dac~;
+#X obj 457 503 pack 0 0;
+#X floatatom 522 477 5 0 0 0 - - -, f 5;
+#X msg 451 476 127;
+#X text 440 476 a;
+#X text 483 476 freq.;
+#X obj 451 442 t b f;
 #X connect 0 0 4 0;
 #X connect 0 0 4 1;
 #X connect 2 0 3 0;
